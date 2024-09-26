@@ -60,10 +60,25 @@ footer{
   background-color: var(--once);
   color: var(--uno);
 }
-footer h4 a{
+footer div{
+  width: 100%;
+  display: flex;
+  justify-content:space-around ;
+}
+footer div h4 a{
   text-decoration: none;
   color: var(--uno);
   cursor: pointer;
+}
+.marca{
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  background-color: var(--once);
+  color: var(--uno);
+  padding-right: 5px;
+  
+
 }
 .sect{
   width: 100vw;
@@ -83,8 +98,7 @@ footer h4 a{
   margin: auto;
   height: 70vh;
   overflow-y: hidden;
-  display: flex;
-  
+  display: flex;  
 }
 .hero section{
   width: 50%;
@@ -153,12 +167,32 @@ footer h4 a{
   display: flex;
   height: fit-content;
   width: 600px;
-  
   overflow: auto;
+
+  
 }
 .reco{
   display: flex;
   flex-direction: column;
+  height: fit-content;
+  margin-bottom: 5px;
+}
+.reco .advs{
+  width: 600px;
+  height: 150px;
+  background-size: cover;
+  box-shadow: 5px 5px 5px var(--once);
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+.reco1 .bigAdv{
+  background-image: url('./img/bigAdv.png');
+  width: 600px;
+  height: 550px;
+  background-size: cover;
+  box-shadow: 5px 5px 5px var(--once);
+  border-radius: 5px;
+  margin-bottom: 5px;
 }
 @media (max-width: 600px) {
   header h1{
@@ -215,6 +249,19 @@ footer h4 a{
     width: 400px !important;
     margin: 0px 100px !important;
   }
+  .reco .advs{
+    width: 540px;
+    height: 170px;
+    background-size: cover;
+ 
+  }
+  .reco1 .bigAdv{
+    background-image: url('./img/bigAdv.png');
+    width: 540px;
+    height: 500px;
+    background-size: cover;
+    
+  }
   
 }
 @media (max-width: 450px) {
@@ -224,17 +271,80 @@ footer h4 a{
   .sect2{
     flex-direction: column;
     height: fit-content;
+    align-items: center;
   }
   .sect2 div{
     flex-direction: column;
     height: fit-content;
     margin-top: 40px;
   }
-  
+  .sect{
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero{
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero .video-adv{
+    width: 400px;
+  }  
   #frames{
     width: 425px;
     margin-bottom: 5px;
     
+  }
+  .reco .advs{
+    width: 440px;
+    height: 160px;
+    background-size: cover;
+ 
+  }
+  .reco1 .bigAdv{
+    background-image: url('./img/bigAdv.png');
+    width: 440px;
+    height: 400px;
+    background-size: cover;
+    
+  }
+  .hero div{
+    width: 430px;
+    height: 30vh;
+  }
+  .hero div p{
+    margin-top: 10px;
+    font-size: 1.2em;
+    height: fit-content;
+  }
+  .hero #eldWo{
+    display: flex;
+    height: 40vh;
+  }
+  .hero #eldWo img{
+    width: 50%;
+  }
+  .hero h2{
+    margin: 1% 5%;
+    overflow: hidden;
+  }
+  .hero #galery{
+    width: 440px;
+    height: fit-content;
+    display: -ms-inline-grid;
+    justify-content: space-around;
+    margin-left:10px ;
+  }
+  .hero #galery img{
+    width: 30%;
+    height: auto;
+    border-radius: 5px;
+  }
+  .hero #galery img:hover{
+    scale: 1.4;
   }
   
 }
