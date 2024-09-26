@@ -298,13 +298,20 @@ footer div h4 a{
     margin-bottom: 5px;
     
   }
-  .reco .advs{
+  .hero .reco{
+    height: 50vh;
+  }
+  .hero .reco .advs{
     width: 440px;
-    height: 160px;
+    height: 170px;
     background-size: cover;
  
   }
-  .reco1 .bigAdv{
+  }
+  .hero .reco1{
+    height: 60vh;
+  }
+  .hero .reco1 .bigAdv{
     background-image: url('./img/bigAdv.png');
     width: 440px;
     height: 400px;
@@ -315,35 +322,35 @@ footer div h4 a{
     width: 430px;
     height: 30vh;
   }
-  .hero div p{
+  .container-Serv div p{
     margin-top: 10px;
     font-size: 1.2em;
     height: fit-content;
   }
-  .hero #eldWo{
+  .container-Serv #eldWo{
     display: flex;
     height: 40vh;
   }
-  .hero #eldWo img{
+  .container-Serv #eldWo img{
     width: 50%;
   }
-  .hero h2{
+  .container-Serv h2{
     margin: 1% 5%;
     overflow: hidden;
   }
-  .hero #galery{
+  .container-Serv #galery{
     width: 440px;
     height: fit-content;
     display: -ms-inline-grid;
     justify-content: space-around;
     margin-left:10px ;
   }
-  .hero #galery img{
+  .container-Serv #galery img{
     width: 30%;
     height: auto;
     border-radius: 5px;
   }
-  .hero #galery img:hover{
+  .container-Serv #galery img:hover{
     scale: 1.4;
   }
   
