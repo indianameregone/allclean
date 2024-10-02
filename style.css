@@ -284,6 +284,12 @@ footer div h4 a{
     align-items: center;
     justify-content: center;
   }
+  .hero2{
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .hero{
     width: 450px;
     display: flex;
@@ -298,25 +304,13 @@ footer div h4 a{
     margin-bottom: 5px;
     
   }
-  .hero .reco{
-    height: 50vh;
-  }
-  .hero .reco .advs{
+  .hero2 .reco .advs{
     width: 440px;
-    height: 170px;
-    background-size: cover;
- 
-  }
-  }
-  .hero .reco1{
-    height: 60vh;
-  }
-  .hero .reco1 .bigAdv{
-    background-image: url('./img/bigAdv.png');
+    height: 160px;
+    box-shadow: #013230; 
+  } 
+  .hero2 .reco1 .bigAdv{
     width: 440px;
-    height: 400px;
-    background-size: cover;
-    
   }
   .hero div{
     width: 430px;
