@@ -316,36 +316,96 @@ footer div h4 a{
     width: 430px;
     height: 30vh;
   }
-  .container-Serv div p{
-    margin-top: 10px;
-    font-size: 1.2em;
+  .container-Serv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 70vh;
+  }
+  .container-Serv-gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     height: fit-content;
+  }
+  .container-Serv #presentation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    padding: 5px
+  };
+  .container-Serv div p{
+    margin-top: 5px;
+    font-size: 1.2em;
+    font-weight: bolder;
+    width: 90%;
   }
   .container-Serv #eldWo{
     display: flex;
-    height: 40vh;
+    justify-content: space-around;
+    
   }
   .container-Serv #eldWo img{
-    width: 50%;
+    width: 48%;
+    padding: 1px 3px;
   }
-  .container-Serv h2{
+  .container-Serv-gallery h2{
     margin: 1% 5%;
     overflow: hidden;
   }
-  .container-Serv #galery{
+  .container-Serv-gallery #galery{
     width: 440px;
     height: fit-content;
     display: -ms-inline-grid;
     justify-content: space-around;
     margin-left:10px ;
   }
-  .container-Serv #galery img{
+  .container-Serv-gallery #galery img{
     width: 30%;
     height: auto;
     border-radius: 5px;
   }
-  .container-Serv #galery img:hover{
+  .container-Serv-gallery #galery img:hover{
     scale: 1.4;
+  }
+  .about-class{
+    width: 450px;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .us{
+    background-color: var(--dos);
+    width: 440px;
+    height: 88vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .us img{
+    width: 95%;
+    border-radius: 5px;
+  }
+  .us p{
+    padding: 2px 5px;
+    margin: 5px 2px;
+  }
+  .all{
+    background-color: var(--tres);
+    width: 440px;
+    height: 88vh;
+    display: flex;
+    flex-direction: column;
+
+  }
+  #all-map{
+    width: 440px;
+    height: 340px;
+    border-radius: 5px;
   }
   
 }
