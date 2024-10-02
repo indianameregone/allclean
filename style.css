@@ -279,41 +279,59 @@ footer div h4 a{
     margin-top: 40px;
   }
   .sect{
-    width: 450px;
+    width: 425px;
+    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   .hero2{
-    width: 450px;
+    width: 425px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   .hero{
-    width: 450px;
+    width: 425px;
+    height: 85vh;
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .hero section{
+    height: 50vh;
+  }
+  .hero section h1{
+    text-shadow: 2px 2px 2px black;
+  }
+  .hero section p{
+    text-shadow: 2px 2px 2px black;
+  }
+  .hero .changingImg{
+    width: 410px;
+  }
+  .hero .changingImg h2{
+    text-shadow: 2px 2px 2px black;
   }
   .hero .video-adv{
     width: 400px;
   }  
   #frames{
-    width: 425px;
+    width: 420px;
     margin-bottom: 5px;
     
   }
-  .hero2 .reco .advs{
-    width: 440px;
-    height: 160px;
+  .reco .advs{
+    width: 410px;
+    height: 180px;   
+    background-size: cover;
     box-shadow: #013230; 
   } 
   .hero2 .reco1 .bigAdv{
-    width: 440px;
+    width: 420px;
   }
   .hero div{
-    width: 430px;
+    width: 420px;
     height: 30vh;
   }
   .container-Serv{
@@ -350,14 +368,14 @@ footer div h4 a{
   }
   .container-Serv #eldWo img{
     width: 48%;
-    padding: 1px 3px;
+    height: auto;
   }
   .container-Serv-gallery h2{
     margin: 1% 5%;
     overflow: hidden;
   }
   .container-Serv-gallery #galery{
-    width: 440px;
+    width: 420px;
     height: fit-content;
     display: -ms-inline-grid;
     justify-content: space-around;
@@ -372,7 +390,7 @@ footer div h4 a{
     scale: 1.4;
   }
   .about-class{
-    width: 450px;
+    width: 425px;
     height: 90vh;
     display: flex;
     justify-content: center;
@@ -380,7 +398,7 @@ footer div h4 a{
   }
   .us{
     background-color: var(--dos);
-    width: 440px;
+    width: 420px;
     height: 88vh;
     display: flex;
     flex-direction: column;
@@ -396,7 +414,7 @@ footer div h4 a{
   }
   .all{
     background-color: var(--tres);
-    width: 440px;
+    width: 420px;
     height: 88vh;
     display: flex;
     flex-direction: column;
