@@ -107,10 +107,18 @@ footer div h4 a{
 }
 .us{
   max-width: 1200px;
+  display: flex;
+  padding: 15px;
+}
+.us section{
+  width: 500px;
+}
+.us section p{
+  font-size: 1.2em;
+  padding: 5px;
 }
 .us img{
-  height: 400px;
-  
+  height: 400px;  
 }
 .hero{
   max-width: 1400px;
@@ -283,8 +291,8 @@ footer div h4 a{
   }
   .us{
     width: 550px;
-  }
-  
+    flex-direction: column;
+  }  
 }
 @media (max-width: 450px) {
   header h1{
@@ -418,9 +426,13 @@ footer div h4 a{
     height: 300px;
     margin: 5px 10px;
   }
-  .us p{
-    padding: 2px 5px;
-    margin: 5px 2px;
+  .us section{
+    width: 400px;
+    height: auto;
+  }
+  .us section p{
+    font-size: 18px;
+    padding: 5px;
   }
   .about-class2 .all{
     background-color: var(--tres);
