@@ -93,6 +93,25 @@ footer div h4 a{
   padding: 0;
   box-sizing: border-box;
 }
+.about-class{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+.about-class2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+.us{
+  max-width: 1200px;
+}
+.us img{
+  height: 400px;
+  
+}
 .hero{
   max-width: 1400px;
   margin: auto;
@@ -262,6 +281,9 @@ footer div h4 a{
     background-size: cover;
     
   }
+  .us{
+    width: 550px;
+  }
   
 }
 @media (max-width: 450px) {
@@ -388,34 +410,22 @@ footer div h4 a{
   }
   .container-Serv-gallery #galery img:hover{
     scale: 1.4;
-  }
-  .about-class{
-    width: 425px;
-    height: 90vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  } 
   .us{
-    background-color: var(--dos);
-    width: 420px;
-    height: 88vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    width: 90%;    
   }
   .us img{
-    width: 95%;
-    border-radius: 5px;
+    height: 300px;
+    margin: 5px 10px;
   }
   .us p{
     padding: 2px 5px;
     margin: 5px 2px;
   }
-  .all{
+  .about-class2 .all{
     background-color: var(--tres);
     width: 420px;
-    height: 88vh;
+    height: fit-content;
     display: flex;
     flex-direction: column;
 
@@ -424,6 +434,37 @@ footer div h4 a{
     width: 440px;
     height: 340px;
     border-radius: 5px;
+  }
+  .deep-clean{
+    width: 425px;
+    height: 50vh;    
+    color: rgb(245, 245, 245);
+    padding-top: 20px;
+    text-shadow: var(--once) 2px 2px 2px;
+    background-color: var(--tres);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image:linear-gradient(0deg,rgba(0, 0, 0, 0.562),rgba(0,0,0,0.562)), url('./img/icon.png');
+    background-size: cover;
+  }
+  .deep-clean h2{
+    font-size: 1.9rem;
+    padding: 4px;
+    font-weight: bolder;
+  }
+  .deep-clean ul{
+    height: 90%;
+    
+
+  }
+  .deep-clean ul li{
+    font-size: 1.5em;
+    padding:5px;
+    margin: 10px 0px;
+    height: 45px;
+    width: fit-content;
+    font-weight: bold;
   }
   
 }
