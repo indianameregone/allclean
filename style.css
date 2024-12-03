@@ -212,15 +212,6 @@ footer div h4 a{
   border-radius: 5px;
   margin-bottom: 5px;
 }
-.reco1 .bigAdv{
-  background-image: url('./img/bigAdv.png');
-  width: 600px;
-  height: 550px;
-  background-size: cover;
-  box-shadow: 5px 5px 5px var(--once);
-  border-radius: 5px;
-  margin-bottom: 5px;
-}
 @media (max-width: 600px) {
   header h1{
     display: none;
@@ -282,13 +273,6 @@ footer div h4 a{
     background-size: cover;
  
   }
-  .reco1 .bigAdv{
-    background-image: url('./img/bigAdv.png');
-    width: 540px;
-    height: 500px;
-    background-size: cover;
-    
-  }
   .us{
     width: 550px;
     flex-direction: column;
@@ -309,20 +293,20 @@ footer div h4 a{
     margin-top: 40px;
   }
   .sect{
-    width: 425px;
+    width: 450px;
     height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   .hero2{
-    width: 425px;
+    width: 450px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   .hero{
-    width: 425px;
+    width: 450px;
     height: 85vh;
     display: flex;
     align-items: center;
@@ -351,15 +335,33 @@ footer div h4 a{
     margin-bottom: 5px;
     
   }
-  .reco .advs{
-    width: 410px;
-    height: 180px;   
+  .hero2 .reco1{
+    background-image: url('./img/bigAdv.png');
+    background-size: cover;
+    width: 440px;
+    height: 400px;
+  }
+  .reco .advs1{
+    width: 440px;
+    height: 160px;   
+    background-image: url('./img/adv1.png');
     background-size: cover;
     box-shadow: #013230; 
   } 
-  .hero2 .reco1 .bigAdv{
-    width: 420px;
-  }
+  .reco .advs2{
+    width: 440px;
+    height: 160px;   
+    background-image: url('./img/adv2.png');
+    background-size: cover;
+    box-shadow: #013230; 
+  } 
+  .reco .advs3{
+    width: 440px;
+    height: 160px;   
+    background-image: url('./img/adv3.png');
+    background-size: cover;
+    box-shadow: #013230; 
+  } 
   .hero div{
     width: 420px;
     height: 30vh;
@@ -369,7 +371,11 @@ footer div h4 a{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 70vh;
+    height: fit-content;
+  }
+  .container-Serv h2{
+    font-size: 30px;
+    height: fit-content;
   }
   .container-Serv-gallery{
     display: flex;
@@ -382,8 +388,11 @@ footer div h4 a{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 30vh;
-    padding: 5px
+    height: 25vh;
+    padding: 1px 5px;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: var(--dos)
   };
   .container-Serv div p{
     margin-top: 5px;
@@ -448,7 +457,7 @@ footer div h4 a{
     border-radius: 5px;
   }
   .deep-clean{
-    width: 425px;
+    width: 450px;
     height: 50vh;    
     color: rgb(245, 245, 245);
     padding-top: 20px;
