@@ -19,6 +19,7 @@
 
 }
 body{
+  min-width: 1200px;
   height: fit-content;
 }
 header{
@@ -82,7 +83,20 @@ footer div h4 a{
 }
 .sect{
   width: 100vw;
-  height: 80vh;
+  height: 90vh;
+  background: no-repeat center center fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid var(--uno);
+  overflow-y: hidden;
+  color: rgb(245,245,245);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.sect-mid{
+  width: 100vw;
+  height: 70vh;
   background: no-repeat center center fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -123,22 +137,32 @@ footer div h4 a{
 .hero{
   max-width: 1400px;
   margin: auto;
-  height: 70vh;
+  height: 90%;
   overflow-y: hidden;
   display: flex;  
 }
 .hero section{
   width: 50%;
-  overflow: hidden;
+  height: fit-content;
 }
 .hero section h1{
   overflow: hidden;
-  font-size: 2.5em;
+  font-size: 2.4em;
 }
 .hero section p{
   width: 80%;
-  height: 100%;
-  font-size: 1.3em;
+  height: auto;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+.hero section ul li{
+  width: 80%;
+  height: auto;
+  font-size: 1.2em;
+  padding-left: 5px;  
+}
+.hero section ul li strong{
+  text-shadow: 4px 4px 4px black
 }
 .changingImg{
   margin-top: 2vh;
@@ -154,14 +178,16 @@ footer div h4 a{
   transition: 0.5s;
 }
 .sect2{
-  width: 100vw;
-  height: 700px;
+  width: 99vw;
+  height: 75vh;
   background: no-repeat center center fixed;
   background-repeat: no-repeat;
   background-size: cover;
   border: 1px solid var(--uno);
   display:flex ;
-  overflow-y: hidden;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
 .sect2 h2{
   position: absolute;
@@ -190,27 +216,54 @@ footer div h4 a{
   width:auto;
   height:800px
 }
-.reco1{
-  display: flex;
-  height: fit-content;
-  width: 600px;
-  overflow: auto;
-
-  
-}
 .reco{
   display: flex;
   flex-direction: column;
   height: fit-content;
   margin-bottom: 5px;
+  justify-content: space-around;
+
 }
-.reco .advs{
-  width: 600px;
-  height: 150px;
+.reco .advs1{
+  width: 640px;
+  height: 160px;   
+  background-image: url('./img/adv1.png');
   background-size: cover;
-  box-shadow: 5px 5px 5px var(--once);
-  border-radius: 5px;
-  margin-bottom: 5px;
+  box-shadow: #013230; 
+} 
+.reco .advs2{
+  width: 640px;
+  height: 160px;   
+  background-image: url('./img/adv2.png');
+  background-size: cover;
+  box-shadow: #013230; 
+} 
+.reco .advs3{
+  width: 640px;
+  height: 160px;   
+  background-image: url('./img/adv3.png');
+  background-size: cover;
+  box-shadow: #013230; 
+} 
+.hero2{
+  height: 75vh;
+  max-width: 1400px;
+  display: flex;  
+  overflow: hidden;
+}
+.reco1{
+  display: flex;  
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 40%;
+  overflow: hidden;
+   
+}
+.bigAdv{
+  width: 100%;  
+  background-image: url('./img/bigAdv.png');
+  background-repeat: no-repeat;    
 }
 @media (max-width: 600px) {
   header h1{
@@ -294,7 +347,7 @@ footer div h4 a{
   }
   .sect{
     width: 450px;
-    height: 90vh;
+    height: 1000px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -307,19 +360,27 @@ footer div h4 a{
   }
   .hero{
     width: 450px;
-    height: 85vh;
+    height: 950px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   .hero section{
-    height: 50vh;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
   }
   .hero section h1{
     text-shadow: 2px 2px 2px black;
+    margin: 5px;
+    font-size: 25px;
+    height: 28px;
   }
   .hero section p{
     text-shadow: 2px 2px 2px black;
+    font-size: 15px;
+    height: fit-content;
   }
   .hero .changingImg{
     width: 410px;
@@ -330,6 +391,16 @@ footer div h4 a{
   .hero .video-adv{
     width: 400px;
   }  
+  .hero section ul{
+    width: 80%;
+    height: 200px;
+  }
+  .hero section ul li{
+    width: 80%;
+    height: auto;
+    font-size: 1em;
+    padding-left: 5px;  
+  }
   #frames{
     width: 420px;
     margin-bottom: 5px;
